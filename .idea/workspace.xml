@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cdb969-d421-4697-b955-00891c3dd22e" name="Changes" comment="fix: venue controller route syntax">
-      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/client/InventoryServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/response/InventoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/response/VenueResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/event/BookingEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/response/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/response/BookingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/service/BookingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/entity/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/response/EventInventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/response/EventInventoryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +81,7 @@
       <recent name="C:\Users\yanli\OneDrive\Área de Trabalho\zzzzzzzzzzzzzzzz\java-microservices\inventoryservice\src\main\java\com\example\yan\inventoryservice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookingService">
+  <component name="RunManager" selected="Application.InventoryService">
     <configuration name="BookingService" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.yan.bookingservice.BookingServiceApplication" />
       <module name="bookingservice" />
