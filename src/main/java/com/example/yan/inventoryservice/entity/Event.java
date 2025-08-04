@@ -1,6 +1,7 @@
 package com.example.yan.inventoryservice.entity;
 
 import jakarta.persistence.*;
+import jakarta.persistence.GeneratedValue;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,7 +12,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "venue")
+@Table(name = "event")
 public class Event {
     @Id
     private Long id;
