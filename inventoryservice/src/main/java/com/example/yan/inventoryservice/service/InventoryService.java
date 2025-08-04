@@ -9,6 +9,7 @@ import com.example.yan.inventoryservice.response.VenueInventoryResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -28,9 +29,11 @@ public class InventoryService {
         final List<Event> events = eventRepository.findAll();
 
         return events.stream().map(event-> EventInventoryResponse.builder()
+                .eventId(event.getId())
                 .event(event.getName())
                 .capacity(event.getLeftCapacity())
                 .venue(event.getVenue())
+                .ticketPrice(BigDecimal.valueOf(event.getTicketPrice()))
                 .build()).collect(Collectors.toList());
     }
 
@@ -41,6 +44,17 @@ public class InventoryService {
                 .venueId(venue.getId())
                 .venueName(venue.getName())
                 .totalCapacity(venue.getTotalCapacity())
+                .build();
+    }
+
+    public EventInventoryResponse getEventInventory(final Long eventId){
+        final Event event = eventRepository.findById(eventId).orElse(null);
+
+        return EventInventoryResponse.builder()
+                .event(event.getName())
+                .capacity(event.getLeftCapacity())
+                .venue(event.getVenue())
+                .ticketPrice(BigDecimal.valueOf(event.getTicketPrice()))
                 .build();
     }
 }
