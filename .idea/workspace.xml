@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cdb969-d421-4697-b955-00891c3dd22e" name="Changes" comment="fix: venue controller route syntax">
-      <change beforePath="$PROJECT_DIR$/inventoryservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/client/InventoryServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/response/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/response/VenueResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/entity/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/entity/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/response/EventInventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/response/EventInventoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/service/InventoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,25 +60,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BookingServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InventoryService.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InventoryserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.inventoryservice [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.inventoryservice [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yanli/OneDrive/Área de Trabalho/zzzzzzzzzzzzzzzz/java-microservices&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookingService.executor": "Run",
+    "Application.BookingServiceApplication.executor": "Run",
+    "Application.InventoryService.executor": "Run",
+    "Application.InventoryserviceApplication.executor": "Run",
+    "Maven.inventoryservice [clean].executor": "Run",
+    "Maven.inventoryservice [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yanli/OneDrive/Área de Trabalho/zzzzzzzzzzzzzzzz/java-microservices/inventoryservice/src/main/resources/db/migration",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yanli\OneDrive\Área de Trabalho\zzzzzzzzzzzzzzzz\java-microservices\inventoryservice\src\main\resources\db\migration" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yanli\OneDrive\Área de Trabalho\zzzzzzzzzzzzzzzz\java-microservices\inventoryservice\src\main\java\com\example\yan\inventoryservice" />
     </key>
