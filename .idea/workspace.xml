@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cdb969-d421-4697-b955-00891c3dd22e" name="Changes" comment="fix: venue controller route syntax">
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/yan/bookingservice/event/BookingEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/yan/orderservice/client/InventoryServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/yan/orderservice/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderservice/src/main/java/com/yan/orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/BookingServiceRoutes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/InventoryServiceRoutes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/service/InventoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +51,15 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="30lJ97b8YJq8c3kMGD3V5J69Aqv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApigatewayApplication.executor": "Run",
     "Application.BookingService.executor": "Run",
     "Application.BookingServiceApplication.executor": "Run",
     "Application.InventoryService.executor": "Run",
@@ -73,7 +71,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yanli/OneDrive/Área de Trabalho/zzzzzzzzzzzzzzzz/java-microservices/orderservice",
+    "last_opened_file_path": "C:/Users/yanli/OneDrive/Área de Trabalho/zzzzzzzzzzzzzzzz/java-microservices/apigateway",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -88,7 +86,20 @@
       <recent name="C:\Users\yanli\OneDrive\Área de Trabalho\zzzzzzzzzzzzzzzz\java-microservices\inventoryservice\src\main\java\com\example\yan\inventoryservice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderserviceApplication">
+  <component name="RunManager" selected="Application.ApigatewayApplication">
+    <configuration name="ApigatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yan.apigateway.ApigatewayApplication" />
+      <module name="apigateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yan.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookingService" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.yan.bookingservice.BookingServiceApplication" />
       <module name="bookingservice" />
@@ -121,10 +132,12 @@
     <list>
       <item itemvalue="Application.InventoryService" />
       <item itemvalue="Application.BookingService" />
+      <item itemvalue="Application.ApigatewayApplication" />
       <item itemvalue="Application.OrderserviceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApigatewayApplication" />
         <item itemvalue="Application.OrderserviceApplication" />
       </list>
     </recent_temporary>
