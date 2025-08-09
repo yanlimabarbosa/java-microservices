@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21cdb969-d421-4697-b955-00891c3dd22e" name="Changes" comment="fix: venue controller route syntax" />
+    <list default="true" id="21cdb969-d421-4697-b955-00891c3dd22e" name="Changes" comment="fix: venue controller route syntax">
+      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/BookingServiceRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/BookingServiceRoutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,27 +56,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ApigatewayApplication.executor": "Run",
-    "Application.BookingService.executor": "Run",
-    "Application.BookingServiceApplication.executor": "Run",
-    "Application.InventoryService.executor": "Run",
-    "Application.InventoryserviceApplication.executor": "Run",
-    "Application.OrderserviceApplication.executor": "Run",
-    "Maven.inventoryservice [clean].executor": "Run",
-    "Maven.inventoryservice [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yanli/OneDrive/Área de Trabalho/zzzzzzzzzzzzzzzz/java-microservices/apigateway",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApigatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookingService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InventoryService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InventoryserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventoryservice [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.inventoryservice [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yanli/OneDrive/Área de Trabalho/zzzzzzzzzzzzzzzz/java-microservices/apigateway&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yanli\OneDrive\Área de Trabalho\zzzzzzzzzzzzzzzz\java-microservices\inventoryservice\src\main\resources\db\migration" />
@@ -79,7 +85,7 @@
       <recent name="C:\Users\yanli\OneDrive\Área de Trabalho\zzzzzzzzzzzzzzzz\java-microservices\inventoryservice\src\main\java\com\example\yan\inventoryservice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApigatewayApplication">
+  <component name="RunManager" selected="Application.OrderserviceApplication">
     <configuration name="ApigatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yan.apigateway.ApigatewayApplication" />
       <module name="apigateway" />
@@ -130,8 +136,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApigatewayApplication" />
         <item itemvalue="Application.OrderserviceApplication" />
+        <item itemvalue="Application.ApigatewayApplication" />
       </list>
     </recent_temporary>
   </component>
