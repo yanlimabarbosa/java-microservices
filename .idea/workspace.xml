@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21cdb969-d421-4697-b955-00891c3dd22e" name="Changes" comment="fix: venue controller route syntax">
-      <change afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookingservice/src/main/java/com/yan/bookingservice/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventoryservice/src/main/java/com/example/yan/inventoryservice/config/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/BookingServiceRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/BookingServiceRoutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/InventoryServiceRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/java/com/yan/apigateway/route/InventoryServiceRoutes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookingservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookingservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventoryservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventoryservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +93,7 @@
       <recent name="C:\Users\yanli\OneDrive\Área de Trabalho\zzzzzzzzzzzzzzzz\java-microservices\inventoryservice\src\main\java\com\example\yan\inventoryservice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderserviceApplication">
+  <component name="RunManager" selected="Application.ApigatewayApplication">
     <configuration name="ApigatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yan.apigateway.ApigatewayApplication" />
       <module name="apigateway" />
@@ -136,8 +144,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderserviceApplication" />
         <item itemvalue="Application.ApigatewayApplication" />
+        <item itemvalue="Application.OrderserviceApplication" />
       </list>
     </recent_temporary>
   </component>
